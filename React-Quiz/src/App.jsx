@@ -1,5 +1,6 @@
 import Header from "./components/Header";
 import Quiz from "./components/Quiz";
+import QUESTIONS from "./questions"
 
 function App() {
 
@@ -7,7 +8,7 @@ function App() {
         <>
             <Header />
             <main>
-                <Quiz/>
+                <Quiz questions={QUESTIONS}/>
             </main>
         </>
     );
