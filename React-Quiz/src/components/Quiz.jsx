@@ -34,11 +34,8 @@ export default function Quiz() {
 
   if (quizComplete) {
     return (
-      <div id="summary">
-        <img src={QUIZCOMPLETELOGO} alt="Trophy" />
-        <h2>Quiz Completed !</h2>
-        <Result userAnswers={userAns}/>
-      </div>
+      <Result userAnswers={userAns}/>
+     
     );
   }
 
