@@ -158,7 +158,7 @@ header h1 {
   padding: 1rem 2rem;
   border: none;
   border-radius: 24px;
-  /* background: linear-gradient(180deg, #81f1fb 0%, #73d2f8 100%); */
+  background: linear-gradient(180deg, #81f1fb 0%, #73d2f8 100%);
   background: #6cb7f5;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
@@ -166,26 +166,26 @@ header h1 {
 
 .answer button:hover,
 .answer button:focus {
-  /* background: linear-gradient(180deg, #bf48f6 0%, #9b50f2 100%); */
+  background: linear-gradient(180deg, #bf48f6 0%, #9b50f2 100%);
   background: #9d5af5;
   color: white;
-  /* box-shadow: 0 0 4px 2px rgba(255, 200, 60, 0.8); */
+  box-shadow: 0 0 4px 2px rgba(255, 200, 60, 0.8);
 }
 
 .answer button.selected {
-  /* background: linear-gradient(180deg, #fbda81 0%, #f8b173 100%); */
+  background: linear-gradient(180deg, #fbda81 0%, #f8b173 100%);
   background: #f5a76c;
   color: #2c203d;
 }
 
 .answer button.correct {
-  /* background: linear-gradient(180deg, #a1fa61 0%, #52d482 100%); */
+  background: linear-gradient(180deg, #a1fa61 0%, #52d482 100%);
   background: #5af59d;
   color: #2c203d;
 }
 
 .answer button.wrong {
-  /* background: linear-gradient(180deg, #f96fb1 0%, #f52b8c 100%); */
+  background: linear-gradient(180deg, #f96fb1 0%, #f52b8c 100%);
   background: #f55a98;
   color: #2c203d;
 }
