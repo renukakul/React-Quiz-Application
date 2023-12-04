@@ -5,6 +5,7 @@ import QUESTIONS from "../questions.js";
 
 
 import Question from "./Question.jsx";
+import Result from "./Result.jsx";
 
 
 
@@ -36,6 +37,7 @@ export default function Quiz() {
       <div id="summary">
         <img src={QUIZCOMPLETELOGO} alt="Trophy" />
         <h2>Quiz Completed !</h2>
+        <Result userAnswers={userAns}/>
       </div>
     );
   }
