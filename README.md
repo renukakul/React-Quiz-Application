@@ -9,4 +9,4 @@
 2. Added Header and Quiz components  - through Header component rendering Quiz application logo , 
 
 
-![image]('./img/final_result.png')
+![image](img/final_result.png)
