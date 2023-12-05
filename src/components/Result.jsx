@@ -1,4 +1,4 @@
-import QUIZCOMPLETELOGO from "/Users/renukakulkarni/Work/ReactAllProjects/React-Quiz-Application/React-Quiz/src/assets/quiz-complete.png";
+import QUIZCOMPLETELOGO from "../assets/quiz-complete.png";
 import QUESTIONS from '../questions.js';
 
 export default function Summary({ userAnswers }) {

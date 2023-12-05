@@ -7,3 +7,6 @@
 
 1. Added App component as a root component 
 2. Added Header and Quiz components  - through Header component rendering Quiz application logo , 
+
+
+![image]('./img/final_result.png')
