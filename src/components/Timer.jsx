@@ -16,7 +16,7 @@ export default function QuestionTimer({ timeout, onTimeout }) {
     console.log('SETTING INTERVAL');
     const interval = setInterval(() => {
       setRemainingTime((prevRemainingTime) => prevRemainingTime - 500);
-    }, 500);
+    }, 10);
 
     return () => {
         clearInterval(interval)

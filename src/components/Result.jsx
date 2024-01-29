@@ -43,14 +43,20 @@ export default function Summary({ userAnswers }) {
             cssClass += ' correct';
           } else {
             cssClass += ' wrong';
-            
           }
 
           return (
             <li key={index}>
               <h3>{index + 1}</h3>
               <p className="question">{QUESTIONS[index].text}</p>
-              <p className={cssClass}>{answer ?? 'Skipped'}</p>
+              <p className={cssClass}>
+              Your answer: {answer ?? 'Skipped'}
+              {answer !== null && answer !== QUESTIONS[index].answers[0] && (
+              <span className= {cssClass + ' corrected'} style={{ display: 'block' }}>
+                Correct answer: {QUESTIONS[index].answers[0]}
+              </span>
+            )}
+              </p>
             </li>
           );
         })}

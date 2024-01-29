@@ -287,6 +287,11 @@ header h1 {
   color: #730b4b;
 }
 
+#summary .user-answer.corrected {
+  color: #054;
+  font-weight:bold
+}
+
 #summary .user-answer.skipped {
   color: #d1baf2;
   font-weight: normal;
