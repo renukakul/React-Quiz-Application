@@ -29,6 +29,29 @@ The React Quiz Application is designed to provide an interactive and engaging pl
    
     Informative details about the quiz, such as the number of questions, skill level (e.g., beginner), and estimated time.
 
+# Project Structure
+The project Follows Modular structure with key Components-
+- Header Component:
+  - Displays the quiz logo and title.
+- Start Component:
+  - Initiates the quiz and provides essential information.
+- Question Component :
+  - Responsible for presenting a single question to the user. 
+  - It manages the state of the user's selected answer, provides a timer for each question, and handles the logic related to user interactions and feedback.
+- Answer Component:
+  - Responsible for rendering and managing the display of answer options for a given question in a quiz application. 
+  - It supports shuffling the order of answer options and provides visual feedback based on the user's interaction and the correctness of their answer.
+- Quiz Component :
+  - Quiz component forms the core of the quiz application, orchestrating the flow and interactions between individual questions and the final result summary.
+- Timer Component-
+  - The QuestionTimer component is responsible for managing and displaying a countdown timer for each question in a quiz. 
+  - It utilizes the React Hooks useState and useEffect to handle the timer logic.
+- Result Component-
+  - he Summary component is responsible for rendering the summary of a completed quiz. 
+  - It displays statistics on skipped, correct, and incorrect answers, along with a detailed breakdown of each question, the user's answer, and the correct answer.
+
+
+
 # Installation and Usage
 Prerequisites - npm should be installed on the machine
 
@@ -39,4 +62,4 @@ To Start Frontend React Website
 ```
 
 # License
-React:React: Released under the MIT License, which is a permissive open-source license
+This project is licensed under the MIT License.
